@@ -27,7 +27,7 @@ public:
 
     /**
      * @brief Allocate an instance from this pool
-     * @return The allocated object, or nullptr if the pool is full
+     * @return The allocated object
      */
     template <typename... Args>
     T* allocate(Args&&... args) {
